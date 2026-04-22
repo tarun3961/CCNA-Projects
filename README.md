@@ -1,8 +1,8 @@
-# IS-IS IPv6 Lab (GNS3)
+# IS-IS REDISTRIBUTION WITH RIP AND EIGRP IPv6 Lab (GNS3)
 
 ## Overview
 This lab demonstrates IS-IS routing protocol configured 
-for IPv6 using Multi-Topology (MT) on GNS3.
+for IPv6 using Multi-Topology (MT) and multi-protocol on GNS3.
 
 ## Protocols Used
 - IS-IS (Integrated IS-IS)
