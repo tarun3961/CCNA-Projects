@@ -1,0 +1,41 @@
+BGP Lab with iBGP and eBGP Topology (GNS3)
+
+## Overview
+This lab demonstrates Border Gateway Protocol (BGP) configuration
+using both iBGP (Internal BGP) and eBGP (External BGP) on GNS3
+with Cisco IOS routers.
+
+## Topology
+- Multiple Autonomous Systems (AS)
+- eBGP between different AS routers
+- iBGP between routers within the same AS
+- Route advertisement and path selection
+
+## Protocols Used
+- eBGP (External BGP)
+- iBGP (Internal BGP)
+- BGP route advertisement
+
+## Tools Used
+- GNS3 Simulator
+- Cisco IOS Routers
+
+## Key Concepts Practiced
+- BGP neighbor relationships (eBGP & iBGP)
+- AS numbers configuration
+- Network advertisement via BGP
+- BGP table verification using show ip bgp
+- Ping tests across autonomous systems
+
+## How to Open
+1. Install GNS3 on your PC
+2. Import BGP2.gns3 file
+3. Start all devices
+4. Verify BGP neighbors with:
+show ip bgp summary
+show ip bgp
+show ip route bgp
+
+## Author
+*Tarun* | CCNA | Network+ | MCA  
+GitHub: [tarun3961](https://github.com/tarun3961
